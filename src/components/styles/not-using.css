@@ -1,0 +1,58 @@
+/* STYLES THAT ARE NOT UNDER USE CURRENTLY */
+
+.textarea {
+  font-family: sans-serif;
+  font-weight: 500;
+  background-image: linear-gradient(#eeeeee 50%, #f3f3f3 50%);
+  background-size: 100% 4rem;
+  padding: 5px 5px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  line-height: 1.2em;
+  font-size: 22px;
+  resize: none;
+}
+
+/* SPLIT-PANE STYLING */
+
+.Resizer {
+  background: #292929;
+  opacity: .2;
+  z-index: 1;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  margin-left: 5px;
+  width: 5px;
+  cursor: col-resize;
+}
+
+.Resizer.disabled {
+cursor: not-allowed;
+}
+.Resizer.disabled:hover {
+border-color: transparent;
+}
