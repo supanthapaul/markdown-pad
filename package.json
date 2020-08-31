@@ -28,12 +28,7 @@
     "package-linux": "electron-packager . markdown-pad --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "cross-env": "^7.0.2",
-    "electron": "^7.2.4",
-=======
     "electron": "^2.0.8",
->>>>>>> parent of f94f991... Merge pull request #5 from supanthapaul/dependabot/npm_and_yarn/electron-7.2.4
     "electron-packager": "^12.1.2"
   }
 }
